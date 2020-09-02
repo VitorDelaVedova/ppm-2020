@@ -1,7 +1,6 @@
 var botoes = document.getElementsByName('button');
 
-botoes[0].addEventListener('click', bemVindo());
+botoes[0].addEventListener('click', function() {
+    window.alert('seja bem vindo');
+});
 
-function bemVindo(){
-    window.alert('Seja Bem vindo');
-}
